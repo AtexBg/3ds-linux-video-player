@@ -1,9 +1,9 @@
 # 3DS Linux Video Player
 
-### This is a project i did a few months ago here's how :
-I was messing a bit with Linux on the 3DS and i discovered that if i send any data to the framebuffer of the console (`/dev/fb0` like in any Linux device) it will be displayed, so then i rebuild the logic of [this converter](https://xem.github.io/3DShomebrew/tools/image-to-bin.html) in a Python script to convert normal PNGs to a format compatible with the 3DS framebuffer, thoses PNGs being frames extracted from a MP4 video.
+#### This is a project i did a few months ago here's how :
+I was messing a bit with Linux on the 3DS and i discovered that if i send any data to the framebuffer of the console (`/dev/fb0` like in any Linux device) it will be displayed, so then i rebuild the logic of [this converter](https://xem.github.io/3DShomebrew/tools/image-to-bin.html) in a Python script to convert normal PNGs to a format compatible with the 3DS framebuffer, these PNGs being frames extracted from a MP4 video.
 
-##How to get Linux on the console?
+## How to get Linux on the console?
 To get Linux installed on your 3DS, to install it you can just extract the contents of [linux_3ds_install.zip](https://github.com/AtexBg/3ds-linux-video-player/blob/main/linux_3ds_install.zip), choose the folder corresponding to your model (Old or New 3DS) and put the files at the root of your SD card, or follow [this tutorial](https://www.gamebrew.org/wiki/Linux_for_3DS).
 
 ## How to run the video player?
