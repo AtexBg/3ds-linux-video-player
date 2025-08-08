@@ -20,8 +20,8 @@ Directory/
 ⚠️ The video file should be named "video.mp4"`
 
 Then, execute the scripts in their order (the "1 - Extract..." first, then the "2 - Crop to...", etc...)
-After that, you should have 3 new directories : **frames**, **cropped_frames** and **bin_frames**.
-Now you can delete the first two directory, they were temporary : the "*bin_frames*" dir contains the frames that will be loaded onto the framebuffer.
+After that, you should have 3 new directories : "**frames**", "**cropped_frames**" and "**bin_frames**".
+Now you can delete the first two folders, they were temporary : the "*bin_frames*" dir contains the frames that will be loaded onto the framebuffer.
 
 ### Transfer files to the console
 **⚠️Linux on the 3DS can't write to the SD card, it only have read access.**
