@@ -51,3 +51,5 @@ Then make the script executable:
 
 And then launch it:
 `./video.sh`
+
+![Image](preview.png)
