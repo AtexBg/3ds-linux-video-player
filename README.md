@@ -19,6 +19,8 @@ Directory/
 ```
 ⚠️ The video file should be named "video.mp4"`
 
+>Works for GIF animations too, but you have to rename it to video.mp4
+
 Then, execute the scripts in their order (the "1 - Extract..." first, then the "2 - Crop to...", etc...)
 After that, you should have 3 new directories : "**frames**", "**cropped_frames**" and "**bin_frames**".
 Now you can delete the first two folders, they were temporary : the "*bin_frames*" dir contains the frames that will be loaded onto the framebuffer.
