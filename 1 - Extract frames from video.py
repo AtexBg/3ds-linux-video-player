@@ -28,4 +28,4 @@ def extract_frames(video, fps=24):
     print(f" {frame_count} frames extracted to ./frames.")
 
 video = 'video.mp4'
-extract_frames(video_path, fps=24)
+extract_frames(video, fps=24) #Replaced "video" with "video_path" before fix, i may just be dumb
